@@ -49,16 +49,19 @@ div.colonna1, div.colonna2,div.colonna3{
   float: left;
 
 }
+/* |regole generali colonne */
 
+/* regole generali blocchi in colonna3 */
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
 }
-/* |regole generali colonne */
+/* |regole generali blocchi in colonna3 */
+
+/* regole colonne singole */
 
 div.colonna1{
   width: 20%;
-  background:white;
-
+  background:lightblue;
 }
 
 div.colonna2{
@@ -70,11 +73,13 @@ div.colonna2{
 
 div.colonna3{
   width: 20%;
-  background:red;
+  background:white;
   position:relative;
   margin-right: 0%;
 }
+/* |regole colonne singole */
 
+/* regole blocchi singoli */
 div.blocco1{
   background: orange;
 }
@@ -88,3 +93,4 @@ div.blocco2{
 div.blocco3{
   background: brown;
 }
+/* |regole blocchi singoli */
