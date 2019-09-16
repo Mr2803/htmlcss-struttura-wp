@@ -5,7 +5,7 @@ body{
 }
 
 *{
-  margin:auto;
+margin: auto;
 }
 /* |regole generali */
 
@@ -33,6 +33,7 @@ div.global{
   width: 80%;
   height: 50px;
   margin-top:10px;
+  position:relative;
 
 }
 
@@ -46,28 +47,32 @@ div.global{
 /* regole generali colonne */
 div.colonna1, div.colonna2,div.colonna3{
   float: left;
-  margin :1%;
+
 }
 
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
-  float: left;
 }
 /* |regole generali colonne */
 
 div.colonna1{
   width: 20%;
   background:white;
+
 }
 
 div.colonna2{
   width: 54%;
   background:green;
+  margin-left: 3%;
+  margin-right:3%;
 }
 
 div.colonna3{
   width: 20%;
   background:red;
+  position:relative;
+  margin-right: 0%;
 }
 
 div.blocco1{
@@ -76,4 +81,8 @@ div.blocco1{
 
 div.blocco2{
   background: purple;
+}
+
+div.blocco3{
+  background: brown;
 }
