@@ -2,6 +2,7 @@
 body{
   background-image: url(../../img/bg.jpg);
   padding-top: 10px;
+  background-attachment: fixed;
 }
 
 *{
@@ -28,10 +29,9 @@ img{
 }
 
 div.menu{
-  background:#666666 ;
+  background:#667667 ;
   width: 65%;
   height: 50px;
-
 }
 
 ul.navbar{
@@ -125,10 +125,9 @@ footer span{
   color: lightgrey;
   display: inline-block;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left:50%;
   transform: translate(-50%, -50%);
-
 }
 
 footer div{
