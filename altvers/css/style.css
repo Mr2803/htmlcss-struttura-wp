@@ -25,13 +25,13 @@ div.menu{
 
 }
 
-ul{
+ul.navbar{
   list-style-type: none;
   margin:0;
   padding:0;
 }
 
-li{
+ul.navbar li{
   float:left;
   color: white;
   margin: 1.1%;
@@ -61,18 +61,14 @@ div.global:after{
 /* regole generali colonne */
 div.colonna1, div.colonna2,div.colonna3{
   float: left;
-  
+}
+
+ul.left{
+  list-style-type: none;
+  padding: 0;
 
 }
 /* |regole generali colonne */
-
-/* regole generali blocchi in colonna3 */
-div.blocco1,div.blocco2,div.blocco3{
-  width:100%;
-  background: white;
-  padding: 15%;
-}
-/* |regole generali blocchi in colonna3 */
 
 /* regole colonne singole */
 div.colonna1{
@@ -93,8 +89,15 @@ div.colonna3{
 }
 /* |regole colonne singole */
 
-/* regole blocchi singoli */
+/* regole generali blocchi in colonna3 */
+div.blocco1,div.blocco2,div.blocco3{
+  width:100%;
+  background: white;
+  padding: 15%;
+}
+/* |regole generali blocchi in colonna3 */
 
+/* regole blocchi singoli */
 div.blocco2{
   margin-top: 10%;
   margin-bottom: 10%;
