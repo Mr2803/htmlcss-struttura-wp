@@ -8,11 +8,16 @@ body{
 margin: auto;
 box-sizing:border-box;
 }
+
+h3{
+  color:#504741;
+  font-size: bold;
+}
 /* |regole generali */
 
 /* sezione header */
 header{
-  width: 70%;
+  width: 65%;
   height: 250px;
 }
 
@@ -24,7 +29,7 @@ img{
 
 div.menu{
   background:#666666 ;
-  width: 70%;
+  width: 65%;
   height: 50px;
 
 }
@@ -49,11 +54,9 @@ ul.navbar li{
 
 /* parte centrale */
 div.global{
-  width: 70%;
+  width: 65%;
   margin-top:20px;
   margin-bottom: 50px;
-
-
 }
 
 div.global:after{
@@ -111,8 +114,19 @@ div.blocco2{
 
 /* footer */
 footer{
-    background: #ccc;
-    width: 70%;
+    background:white;
+    width: 65%;
     height: 150px;
+    border-radius: 15px;
+    position:relative;
+}
+
+footer span{
+  color: lightgrey;
+}
+
+footer div{
+  text-align:center;
+  width: 98%;
 }
 /* |footer */
