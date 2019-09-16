@@ -5,12 +5,20 @@ body{
 
 *{
   margin:auto;
-
-
 }
 
 header{
   background: #ccc;
   width: 80%;
   height: 250px;
+  position: relative;
+}
+
+
+div.menu{
+  background: black;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top:100%;
 }
