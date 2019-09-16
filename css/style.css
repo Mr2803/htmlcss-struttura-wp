@@ -42,17 +42,17 @@ div.global{
   box-sizing: border-box;
 }
 
-div.colonna1, div.colonna2, div.colonna3{
+/* regole generali colonne */
+div.colonna1, div.colonna2,div.colonna3{
   float: left;
-  box-sizing: border-box;
-  margin:1%;
+  margin :1%;
 }
 
-div.colonna4, div.colonna5{
+div.colonna4,div.colonna5{
   float:right;
-  box-sizing: border-box;
   margin:1%;
 }
+/* |regole generali colonne */
 
 div.colonna1{
   width: 20%;
@@ -78,5 +78,4 @@ div.colonna4{
 div.colonna5{
   background: purple;
   width: 20%;
-
 }
