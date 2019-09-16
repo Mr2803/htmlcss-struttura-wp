@@ -12,7 +12,7 @@ box-sizing:border-box;
 
 h3{
   color:#504741;
-  font-size: bold;
+  font-weight: bold;
 }
 /* |regole generali */
 
@@ -32,18 +32,23 @@ div.menu{
   background:#667667 ;
   width: 65%;
   height: 50px;
+
 }
 
 ul.navbar{
   list-style-type: none;
-  margin:0;
-  padding:0;
+  margin:0 auto;
+
 }
 
 ul.navbar li{
   float:left;
   color: white;
-  margin: 1.1%;
+  margin:auto;
+  font-weight: bold;
+
+  margin: 1%;
+
 }
 
 /* li{
@@ -102,6 +107,7 @@ div.blocco1,div.blocco2,div.blocco3{
   background: white;
   padding: 10%;
   border-radius:15px;
+  border:2px solid #667667;
 }
 /* |regole generali blocchi in colonna3 */
 
@@ -118,6 +124,7 @@ footer{
     width: 65%;
     height: 150px;
     border-radius: 15px;
+    border: 2px solid #667667;
     position:relative;
 }
 
@@ -131,7 +138,7 @@ footer span{
 }
 
 footer div{
-text-align:center;
+
   width: 98%;
 }
 /* |footer */
