@@ -1,3 +1,4 @@
+/* regole generali */
 body{
   background-image: url(../img/bg.jpg);
   padding-top: 10px;
@@ -6,19 +7,76 @@ body{
 *{
   margin:auto;
 }
+/* |regole generali */
 
+/* sezione header */
 header{
   background: #ccc;
   width: 80%;
   height: 250px;
-  position: relative;
-}
+  /* position:relative; */
 
+}
 
 div.menu{
   background: black;
   width: 100%;
   height: 50px;
-  position: absolute;
-  top:100%;
+  /* position: absolute;
+  top:100%; */
+}
+/* |sezione header */
+
+/* parte centrale */
+div.global{
+  background:pink;
+  width: 80%;
+  height: 50px;
+  margin-top:10px;
+}
+
+div.global{
+  content: "";
+  display: table;
+  clear:both;
+  box-sizing: border-box;
+}
+
+div.colonna1, div.colonna2, div.colonna3{
+  float: left;
+  box-sizing: border-box;
+  margin:1%;
+}
+
+div.colonna4, div.colonna5{
+  float:right;
+  box-sizing: border-box;
+  margin:1%;
+}
+
+div.colonna1{
+  width: 20%;
+  background:white;
+}
+
+div.colonna2{
+  width: 54%;
+  background:green;
+}
+
+div.colonna3{
+  width: 20%;
+  background:red;
+}
+
+div.colonna4{
+  background: orange;
+  width: 20%;
+
+}
+
+div.colonna5{
+  background: purple;
+  width: 20%;
+
 }
