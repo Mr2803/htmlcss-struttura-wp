@@ -61,12 +61,12 @@ div.global:after{
 /* regole generali colonne */
 div.colonna1, div.colonna2,div.colonna3{
   float: left;
+  border-radius: 10%;
 }
 
 ul.left{
   list-style-type: none;
   padding: 0;
-
 }
 /* |regole generali colonne */
 
@@ -89,11 +89,12 @@ div.colonna3{
 }
 /* |regole colonne singole */
 
-/* regole generali blocchi in colonna3 */
+/* regole generali blocchi */
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
   background: white;
-  padding: 15%;
+  padding: 10%;
+  border-radius:15px;
 }
 /* |regole generali blocchi in colonna3 */
 
@@ -103,7 +104,6 @@ div.blocco2{
   margin-bottom: 10%;
 }
 /* |regole blocchi singoli */
-
 
 footer{
     background: #ccc;
