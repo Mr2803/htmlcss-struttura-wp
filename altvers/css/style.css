@@ -123,10 +123,16 @@ footer{
 
 footer span{
   color: lightgrey;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
 }
 
 footer div{
-  text-align:center;
+text-align:center;
   width: 98%;
 }
 /* |footer */
