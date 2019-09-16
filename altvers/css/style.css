@@ -12,10 +12,8 @@ box-sizing:border-box;
 
 /* sezione header */
 header{
-  
   width: 70%;
   height: 250px;
-  position:relative;
 }
 
 img{
