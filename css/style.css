@@ -14,7 +14,7 @@ header{
   background: #ccc;
   width: 80%;
   height: 250px;
-  /* position:relative; */
+
 
 }
 
@@ -22,8 +22,7 @@ div.menu{
   background: black;
   width: 80%;
   height: 50px;
-  /* position: absolute;
-  top:100%; */
+
 }
 /* |sezione header */
 
@@ -34,7 +33,6 @@ div.global{
   height: 50px;
   margin-top:20px;
   margin-bottom: 50px;
-  position:relative;
 
 }
 
@@ -42,7 +40,6 @@ div.global{
   content: "";
   display: table;
   clear:both;
-
 }
 
 /* regole generali colonne */
@@ -101,5 +98,7 @@ footer{
     background: #ccc;
     width: 80%;
     height: 150px;
+    position: relative;
+    bottom:1%;
 
 }
