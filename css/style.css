@@ -50,8 +50,8 @@ div.colonna1, div.colonna2,div.colonna3{
 }
 
 div.blocco1,div.blocco2,div.blocco3{
-  float:right;
-  margin:1%;
+  width:100%;
+  float: left;
 }
 /* |regole generali colonne */
 
@@ -72,10 +72,8 @@ div.colonna3{
 
 div.blocco1{
   background: orange;
-  width: 20%;
 }
 
 div.blocco2{
   background: purple;
-  width: 20%;
 }
