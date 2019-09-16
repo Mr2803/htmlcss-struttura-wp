@@ -32,7 +32,8 @@ div.global{
   background:pink;
   width: 80%;
   height: 50px;
-  margin-top:10px;
+  margin-top:20px;
+  margin-bottom: 50px;
   position:relative;
 
 }
@@ -94,3 +95,11 @@ div.blocco3{
   background: brown;
 }
 /* |regole blocchi singoli */
+
+
+footer{
+    background: #ccc;
+    width: 80%;
+    height: 150px;
+  
+}
