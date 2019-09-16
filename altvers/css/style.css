@@ -13,13 +13,13 @@ margin: auto;
 header{
   background-image: url(../img/bg-header.jpg) ;
   background-size: cover;
-  width: 80%;
+  width: 70%;
   height: 250px;
 }
 
 div.menu{
   background:#666666 ;
-  width: 80%;
+  width: 70%;
   height: 50px;
 
 }
@@ -33,7 +33,7 @@ ul{
 li{
   float:left;
   color: white;
-  margin: 1.7%;
+  margin: 1.1%;
 }
 
 /* li{
@@ -44,10 +44,10 @@ li{
 
 /* parte centrale */
 div.global{
-  background:pink;
-  width: 80%;
+  width: 70%;
   margin-top:20px;
   margin-bottom: 50px;
+
 
 }
 
@@ -66,11 +66,13 @@ div.colonna1, div.colonna2,div.colonna3{
 /* regole generali blocchi in colonna3 */
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
+  background: white;
+  box-sizing:border-box;
+  padding: 15%;
 }
 /* |regole generali blocchi in colonna3 */
 
 /* regole colonne singole */
-
 div.colonna1{
   width: 20%;
   background:lightblue;
@@ -85,23 +87,14 @@ div.colonna2{
 
 div.colonna3{
   width: 20%;
-  background:white;
 }
 /* |regole colonne singole */
 
 /* regole blocchi singoli */
-div.blocco1{
-  background: orange;
-}
 
 div.blocco2{
-  background: purple;
   margin-top: 10%;
   margin-bottom: 10%;
-}
-
-div.blocco3{
-  background: brown;
 }
 /* |regole blocchi singoli */
 
