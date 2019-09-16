@@ -6,6 +6,7 @@ body{
 
 *{
 margin: auto;
+box-sizing:border-box;
 }
 /* |regole generali */
 
@@ -67,7 +68,6 @@ div.colonna1, div.colonna2,div.colonna3{
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
   background: white;
-  box-sizing:border-box;
   padding: 15%;
 }
 /* |regole generali blocchi in colonna3 */
