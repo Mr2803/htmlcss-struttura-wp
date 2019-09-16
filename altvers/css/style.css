@@ -12,10 +12,15 @@ box-sizing:border-box;
 
 /* sezione header */
 header{
-  background-image: url(../img/bg-header.jpg) ;
-  background-size: cover;
+  
   width: 70%;
   height: 250px;
+  position:relative;
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }
 
 div.menu{
@@ -105,8 +110,10 @@ div.blocco2{
 }
 /* |regole blocchi singoli */
 
+/* footer */
 footer{
     background: #ccc;
     width: 70%;
     height: 150px;
 }
+/* |footer */
