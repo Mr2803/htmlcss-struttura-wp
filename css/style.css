@@ -1,0 +1,16 @@
+body{
+  background-image: url(../img/bg.jpg);
+  padding-top: 10px;
+}
+
+*{
+  margin:auto;
+
+
+}
+
+header{
+  background: #ccc;
+  width: 80%;
+  height: 250px;
+}
