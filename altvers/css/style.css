@@ -61,6 +61,8 @@ div.global:after{
 /* regole generali colonne */
 div.colonna1, div.colonna2,div.colonna3{
   float: left;
+  
+
 }
 /* |regole generali colonne */
 
@@ -75,7 +77,8 @@ div.blocco1,div.blocco2,div.blocco3{
 /* regole colonne singole */
 div.colonna1{
   width: 20%;
-  background:lightblue;
+  background:white;
+  box-sizing: border-box;
 }
 
 div.colonna2{
@@ -101,6 +104,6 @@ div.blocco2{
 
 footer{
     background: #ccc;
-    width: 80%;
+    width: 70%;
     height: 150px;
 }
