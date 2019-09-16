@@ -30,13 +30,12 @@ div.menu{
 div.global{
   background:pink;
   width: 80%;
-  height: 50px;
   margin-top:20px;
   margin-bottom: 50px;
 
 }
 
-div.global{
+div.global:after{
   content: "";
   display: table;
   clear:both;
