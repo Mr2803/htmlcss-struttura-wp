@@ -44,7 +44,6 @@ div.global:after{
 /* regole generali colonne */
 div.colonna1, div.colonna2,div.colonna3{
   float: left;
-
 }
 /* |regole generali colonne */
 
@@ -71,8 +70,6 @@ div.colonna2{
 div.colonna3{
   width: 20%;
   background:white;
-  position:relative;
-  margin-right: 0%;
 }
 /* |regole colonne singole */
 
@@ -97,7 +94,4 @@ footer{
     background: #ccc;
     width: 80%;
     height: 150px;
-    position: relative;
-    bottom:1%;
-
 }
