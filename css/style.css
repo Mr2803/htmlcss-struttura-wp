@@ -20,7 +20,7 @@ header{
 
 div.menu{
   background: black;
-  width: 100%;
+  width: 80%;
   height: 50px;
   /* position: absolute;
   top:100%; */
@@ -101,5 +101,5 @@ footer{
     background: #ccc;
     width: 80%;
     height: 150px;
-  
+
 }
