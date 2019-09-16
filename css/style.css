@@ -33,13 +33,14 @@ div.global{
   width: 80%;
   height: 50px;
   margin-top:10px;
+
 }
 
 div.global{
   content: "";
   display: table;
   clear:both;
-  box-sizing: border-box;
+
 }
 
 /* regole generali colonne */
@@ -48,7 +49,7 @@ div.colonna1, div.colonna2,div.colonna3{
   margin :1%;
 }
 
-div.colonna4,div.colonna5{
+div.blocco1,div.blocco2,div.blocco3{
   float:right;
   margin:1%;
 }
@@ -69,13 +70,12 @@ div.colonna3{
   background:red;
 }
 
-div.colonna4{
+div.blocco1{
   background: orange;
   width: 20%;
-
 }
 
-div.colonna5{
+div.blocco2{
   background: purple;
   width: 20%;
 }
